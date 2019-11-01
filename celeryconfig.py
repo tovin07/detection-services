@@ -4,7 +4,6 @@ result_backend = 'redis://127.0.0.1:6379'
 imports = [
     'common',
     'query.tasks',
-    'hello.tasks',
 ]
 
 beat_schedule = {
